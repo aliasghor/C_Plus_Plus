@@ -2,7 +2,7 @@
 
 using namespace std;
 
-float calcuclate(int& num1, char& choice, int& num2) {
+float calcuclate(float& num1, char& choice, int& num2) {
     float result;
     
     switch (choice)
@@ -33,8 +33,8 @@ float calcuclate(int& num1, char& choice, int& num2) {
 
 int main(int argc, char const *argv[])
 {
-    int num1, num2;
-    float result;
+    int num2;
+    float num1, result;
     char choice, quit;
 
     while(true) {
